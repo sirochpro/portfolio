@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Duke DEV </></title>
+    <link rel="icon" type="image/x-icon" href="./icons/resume.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/font.awesome.css" /> -->
+    <!-- <script src="./js/bootstrap.min.js"></script> -->
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="sidebar">
+                <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#fff"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <ul>
+                <li class="logo bx-fade-right"><a href="index.html">DUKE<span>.DEV</span></a></li>
+                <li class="hideOnMobile"><a href="index.html">Home</a></li>
+                <li class="hideOnMobile"><a href="#about">About</a></li>
+                <li class="hideOnMobile"><a href="projects.html">Projects</a></li>
+                <li class="hideOnMobile"><a href="#contact">Contact</a></li>
+                <li class="menuButton" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#fff"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+
+
+
+    </main>
+
+
+    <footer>
+
+        <div class="footer">
+            <div class="footer-logo">
+                <p class="bx-fade-left"><a href="index.html">DUKE<span>.DEV</span></a></p>
+            </div>
+            <div class="footer-text">
+                <p>I am Sirojiddin and this is my personal website, consult me here.</p>
+            </div>
+            <div class="footer-social">
+                <div class="footer-links">
+                    <div class="top">
+                        <a href="https://www.linkedin.com/in/sirochpro/" target="_blank"><i class="bx bxl-linkedin bx-tada"></i></a>
+                        <a href="https://t.me/sirochpro" target="_blank"><i class="bx bxl-telegram"></i></a>
+                        <a href="https://github.com/sirochpro" target="_blank"><i class="bx bxl-github bx-tada"></i></a>
+                        
+                    </div>
+                    <div class="bottom">
+                        <a href="mailto:sirochpro.pl@gmail.com" target="_blank"><i class="bx bxl-gmail"></i></a>
+                        <a href="https://www.instagram.com/sirojiddin_yarilkabov/" target="_blank"><i class="bx bxl-instagram bx-tada"></i></a>
+                        <a href="https://codepen.io/sirochpro" target="_blank"><i class="bx bxl-codepen"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+    <script>
+        function showSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display ='flex'
+        }
+
+        function hideSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display ='none'
+        }
+    </script>
+    <!-- <script src="./js/GoogleSheets.js"></script> -->
+
+
+</body>
+
+</html>
