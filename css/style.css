@@ -31,6 +31,11 @@ h1.title {
     margin-bottom: 40px;
 }
 
+span.highlite{
+    color: #02ffcd;
+    font-weight: bold;
+}
+
 
 /* ===== End of default settings ===== */
 
@@ -38,7 +43,6 @@ h1.title {
 
 header {
     background: rgba(255, 255, 255, 0.15);
-    position: absolute;
     width: 100%;
 }
 
@@ -252,6 +256,57 @@ nav li.logo {
     font-size: 20px;
 }
 
+.bar{
+    background-color: transparent;
+    border: 2px solid #02ffcd;
+    width: 100%;
+    padding: -5px;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: #000;
+    font-size: 12px;
+}
+
+.html-bar{
+    background-color: #02ffcd;
+    width: 95%;
+}
+
+.css-bar{
+    background-color: #02ffcd;
+    width: 90%;
+}
+
+.python-bar{
+    background-color: #02ffcd;
+    width: 70%;
+}
+
+.js-bar{
+    background-color: #02ffcd;
+    width: 65%;
+}
+
+.c-bar{
+    background-color: #02ffcd;
+    width: 65%;
+}
+
+.sql-bar{
+    background-color: #02ffcd;
+    width: 80%;
+}
+
+.net-bar{
+    background-color: #02ffcd;
+    width: 75%;
+}
+
+.linux-bar{
+    background-color: #02ffcd;
+    width: 60%;
+}
+
 
 @media(max-width:960px) {
     .skills-info {
@@ -273,6 +328,28 @@ nav li.logo {
     background-color: rgb(37, 36, 36);
 }
 
+.main-project{
+    background-color: #000;
+}
+
+.main-projects .button button{
+    background-color: transparent;
+    border: 2px solid #fff;
+    padding: 23px 40px;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+.main-projects .button button:hover{
+    background-color: #02ffcd;
+    color: #000;
+    /* border: 3px solid #02ffcd; */
+    border: none;
+    padding: 25px 40px;
+}
+
 .projects {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -284,6 +361,7 @@ nav li.logo {
     border: 2px solid white;
     border-radius: 6px;
     /* box-shadow: 0px 0px 10px white; */
+
 }
 
 .project-img {
@@ -377,12 +455,13 @@ nav li.logo {
 /* ===== Footer settings ===== */
 
 .footer {
-    border-top: 1px solid gray;
+    /* border-top: 1px solid gray; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 40px 30px;
     align-items: center;
+    background: rgba(255, 255, 255, 0.15);
 }
 
 .footer-logo {
